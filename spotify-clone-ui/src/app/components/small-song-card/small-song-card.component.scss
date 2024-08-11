@@ -1,0 +1,21 @@
+.song-container {
+  display: flex;
+  width: 100%;
+}
+
+.song-details {
+  flex-grow: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.title,
+.author {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.song-details {
+  max-width: calc(100% - 55px);
+}
